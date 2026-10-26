@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Student Dashboard</title>
+
+  <!-- Connect the CSS file to this HTML file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar menu -->
+  <aside class="sidebar">
+    <h2>My Campus</h2>
+    <a href="#student">Student</a>
+    <a href="#results">Results</a>
+    <a href="#attendance">Attendance</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#exams">Exams</a>
+    <a href="#announcements">News</a>
+  </aside>
+
+  <!-- Main page content -->
+  <main class="content">
+    <h1>Student Academic Dashboard</h1>
+    <p class="welcome">Welcome back, Aisha!</p>
+
+    <!-- Student details card -->
+    <section class="card" id="student">
+      <h2>Student Details</h2>
+      <p><strong>Name:</strong>Bhavani</p>
+      <p><strong>Student ID:</strong>ST26001062</p>
+      <p><strong>Course:</strong> Computer Science</p>
+      <p><strong>Semester:</strong> 1</p>
+    </section>
+
+    <!-- Semester results card -->
+    <section class="card" id="results">
+      <h2>Semester Results</h2>
+
+      <table>
+        <tr>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>88</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Database Systems</td>
+          <td>82</td>
+          <td>B+</td>
+        </tr>
+        <tr>
+          <td>Computer Networks</td>
+          <td>85</td>
+          <td>A-</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Attendance card -->
+    <section class="card" id="attendance">
+      <h2>Attendance</h2>
+
+      <p>Web Development — 92%</p>
+      <progress value="92" max="100"></progress>
+
+      <p>Database Systems — 84%</p>
+      <progress value="84" max="100"></progress>
+
+      <p>Computer Networks — 76%</p>
+      <progress value="76" max="100"></progress>
+    </section>
+
+    <!-- Subject information card -->
+    <section class="card" id="subjects">
+      <h2>Subject Information</h2>
+
+      <table>
+        <tr>
+          <th>Subject</th>
+          <th>Teacher</th>
+          <th>Room</th>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>swathi</td>
+          <td>204</td>
+        </tr>
+        <tr>
+          <td>Database Systems</td>
+          <td>valli</td>
+          <td>108</td>
+        </tr>
+        <tr>
+          <td>Computer Networks</td>
+          <td>sushma</td>
+          <td>Lab 3</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Exam schedule card -->
+    <section class="card" id="exams">
+      <h2>Exam Schedule</h2>
+
+      <table>
+        <tr>
+          <th>Subject</th>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>5 November</td>
+          <td>10:00 AM</td>
+        </tr>
+        <tr>
+          <td>Database Systems</td>
+          <td>7 November</td>
+          <td>10:00 AM</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Announcements card -->
+    <section class="card" id="announcements">
+      <h2>Announcements</h2>
+      <p><strong>Library:</strong> Open until 8:00 PM this week.</p>
+      <p><strong>Project:</strong> Submit by 10 November.</p>
+    </section>
+
+  </main>
+
+</body>
+</html>
